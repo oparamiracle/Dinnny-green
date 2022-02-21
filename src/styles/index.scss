@@ -1,0 +1,375 @@
+@import "./variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+.Topnavi {
+  .text-A {
+    span {
+      color: $secondary;
+      font-size: 14px;
+    }
+    .txtnav2 {
+      margin-left: 7px;
+    }
+  }
+}
+
+.sectionA {
+  background-color: $secondary;
+  width: 100%;
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      width: 95%;
+
+      li {
+        font-size: medium;
+        display: flex;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 2rem;
+      }
+      button {
+        background-color: $success;
+        border: none;
+        color: white;
+      }
+    }
+  }
+}
+.section-3 {
+  .Give {
+    padding-top: 7rem;
+    color: $secondary;
+    font-size: 3rem;
+    font-family: "lato" sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+  }
+  .Experts {
+    margin-top: 1.5rem;
+    color: $success;
+    font-family: "lato";
+  }
+  .sign-up {
+    background-color: $secondary;
+    color: #fff;
+    margin-top: 0.8rem;
+    font-family: "lato";
+    border: 0;
+  }
+  .Learn-more {
+    background-color: $info;
+    margin-top: 0.8rem;
+    margin-left: 3rem;
+    font-family: "lato";
+    color: $secondary;
+    border: 0;
+  }
+  .section-a {
+    margin-left: 7rem;
+  }
+}
+.blur-div {
+  min-height: 60px;
+  // width: 74rem;
+  margin-top: 13rem;
+  left: 0;
+  background: rgba(0, 52, 18, 0.35);
+  opacity: 0.9;
+}
+.section-b {
+  display: flex;
+  min-height: 70vh;
+  width: 100%;
+  padding-top: 7rem;
+  .section-b1 {
+    position: relative;
+  }
+
+  .section-b1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .img-2 {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .img-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-left: 25em;
+    margin-top: -4rem;
+    z-index: -1;
+  }
+  .img-4 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    margin-top: 15em;
+    margin-left: 24rem;
+  }
+
+  .section-b2 {
+    background-image: url("../image/Mask Group (2).png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    .Advance-Learning {
+      color: $success;
+    }
+    .We-have-made {
+      color: $secondary;
+    }
+  }
+  .numbas {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: $success;
+  }
+  .group-txt {
+    padding: 0;
+    margin: 0;
+    color: $success;
+  }
+  .hrv {
+    display: inline-block;
+    width: 3px;
+    height: 2rem;
+    color: #d6d6d6;
+  }
+  .LearnMore {
+    background-color: $success;
+    color: #fff;
+  }
+}
+.section-c {
+  padding-bottom: 5rem;
+  .semicard {
+    //   display: flex;
+    width: 38%;
+    background-color: #fff;
+    // margin-top: 2rem;
+  }
+  .our-features {
+    padding-top: 2rem;
+    font-family: "lato";
+    font-weight: 700;
+    color: #fff;
+  }
+  .dinny-green {
+    padding-bottom: 3rem;
+    color: #fff;
+  }
+}
+.section-d {
+  margin-bottom: 5rem;
+
+  .section-d-a {
+    // position: absolute;
+    left: 0;
+  }
+  .section-d-1 {
+    // padding-left: -2rem;
+    // position: absolute;
+    padding-left: 8rem;
+    // background-color: red;
+  }
+  .section-d-2 {
+    position: absolute;
+    right: 0;
+    // background-color: blue;
+    // margin-left: 4rem;
+  }
+  .Find {
+    font-family: "lato";
+    font-weight: 600;
+    color: $success;
+  }
+  .we-have {
+    font-family: "lato";
+    color: $secondary;
+  }
+  .vect1 {
+    // width: 396px;
+    height: 72;
+  }
+  .LearnMoree {
+    margin-top: 2rem;
+  }
+}
+.sectionE {
+  margin-top: 6rem;
+  .static {
+    position: fixed;
+    right: 5%;
+    top: 70%;
+  }
+  .imgcard {
+    width: 12rem;
+    height: 12rem;
+  }
+  .Popular {
+    color: $success;
+    font-family: "lato";
+    font-weight: 800;
+  }
+  .cardy {
+    border: 0;
+    background-color: $light;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+  }
+  .cardbtn {
+    width: 20rem;
+    height: 3rem;
+    border-top: 2px solid $secondary;
+    border-bottom: 4px solid #003412;
+    border-left: 0;
+    border-right: 0;
+    color: $secondary;
+  }
+  .cardbtn:hover {
+    background-color: $secondary;
+    color: $light;
+  }
+  .arrow {
+    background-color: $secondary;
+  }
+  .mabotom {
+    margin-bottom: 5rem;
+  }
+  .LearnMorea {
+    display: flex;
+    justify-content: center;
+    color: $light;
+    margin-right: 3rem;
+  }
+  .fonti {
+    color: $success;
+  }
+}
+.section-F {
+  min-height: 80vh;
+
+  .Find-out-How {
+    font-family: lato;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .txt3 {
+    margin-bottom: 6rem;
+  }
+
+  .clip2 {
+    justify-content: center;
+  }
+  .videothumb {
+    margin-left: 8.5rem;
+    margin-bottom: 7rem;
+  }
+}
+.sectionG {
+  min-height: 60vh;
+  .pic1 {
+    margin-right: 2rem;
+    margin-left: 3rem;
+  }
+  .pic2 {
+    border: 4px dashed #fff;
+    margin-bottom: 8rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .pic3 {
+    border-radius: 50%;
+    margin-right: 7rem;
+  }
+  .text5 {
+    margin-bottom: 3rem;
+  }
+}
+
+.section-H {
+  .pushen {
+    margin-top: 7rem;
+  }
+  h1 {
+    font-family: "lato";
+    font-weight: 600;
+  }
+  .lineargra {
+    width: 407px;
+    height: 400px;
+    left: 930px;
+    top: 5439px;
+    flex-wrap: wrap;
+    background: linear-gradient(
+      180deg,
+      rgba(3, 140, 51, 0) 22.57%,
+      rgba(3, 140, 51, 0.497159) 77.2%,
+      #038c33 100%
+    );
+    border-radius: 0px 0px 5px 5px;
+    .lineargra button {
+      background-color: #add9bd;
+      border: none;
+      margin-top: -17rem;
+    }
+  }
+}
+.section-I {
+  border: none;
+  .txt-a {
+    width: 50%;
+    height: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .txt-b {
+    width: 90%;
+    height: 10rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .btform {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+  .formi {
+    border: none;
+  }
+}
+.section-J {
+  display: flex;
+  justify-content: center;
+  font-family: "lato";
+  color: #fff;
+}
+.hr-1 {
+  border: 2px solid #fff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 8rem;
+}
+.pxp {
+  line-height: 1.5rem;
+}
+.btnarrow {
+}
